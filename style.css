@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    color: #1b0cb6; 
+}
+
+h2 {
+    text-align: center;
+    color: #1b0cb6; 
+}
+.AddTask{
+    text-align: center;
+    color: #1b0cb6;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #786F52; /* Same as .app */
+    font-family: sans-serif; /* optional, just for cleaner text */
+}
+#list {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#list li {
+    background: #fff;
+    margin: 8px 0;
+    padding: 10px 40px 10px 10px;
+    border-radius: 4px;
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#list li.completed {
+    text-decoration: line-through;
+    color: #888;
+    background: #e0e0e0;
+}
+.deletebtn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #b61b1b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.deletebtn:hover {
+    background: #ff3333;
+}
