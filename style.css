@@ -16,8 +16,8 @@ h2 {
 body {
     margin: 0;
     padding: 0;
-    background-color: #786F52; /* Same as .app */
-    font-family: sans-serif; /* optional, just for cleaner text */
+    background-color: #786F52;     
+    font-family: sans-serif; 
 }
 #list {
     list-style: none;
